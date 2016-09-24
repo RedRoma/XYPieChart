@@ -26,7 +26,17 @@
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 //  OTHER DEALINGS IN THE SOFTWARE.
 
+
 #import <UIKit/UIKit.h>
+
+//! Project version number for XYPieChart.
+FOUNDATION_EXPORT double XYPieChartVersionNumber;
+
+//! Project version string for XYPieChart.
+FOUNDATION_EXPORT const unsigned char XYPieChartVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <XYPieChart/PublicHeader.h>
+
 
 @class XYPieChart;
 @protocol XYPieChartDataSource <NSObject>
